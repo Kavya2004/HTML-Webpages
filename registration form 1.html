@@ -1,0 +1,58 @@
+<html> 
+<head> 
+<title> Registraton Form </title>
+<script>
+function Hello(){
+alert('Please fill all the details');
+}
+</script>
+<style>
+div{
+border:10px solid magenta;
+padding:50px;
+}
+button{
+background-color: orange;
+}
+button:hover{
+background-color: green;
+}
+@media(min-width: 600px){
+body{
+background-color:pink;
+}
+}
+@media(max-width: 599px){
+body{
+background-color:yellow;
+}
+}
+
+</style>
+
+</head> 
+<body> 
+
+<div>
+
+<h1><marquee><u><font color="red">Registratio Form</font color><u></marquee></h1> 
+<h3><i><font color="dark blue">
+<form action="/register"> 
+<label for="Date">Date :</label> 
+<input type="Date" id="Date">
+<br><br>
+<label for="Login">Login :</label> 
+<input type="text" id="Login" placeholder="E-mail" name="Login">
+<br><br><label for="Password">Password :</label> 
+<input type="Password" id="Password" maxlength=20 name="Password">
+<br><br><input type="submit" value="submit">
+<input type="reset" value="Reset">
+<button onclick="Hello()">Click Me</button>
+</font color>
+<i>
+</h3>
+
+</div>
+</form> 
+</body> 
+</html>
